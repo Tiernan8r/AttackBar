@@ -1,0 +1,16 @@
+main: me.Tiernanator.AttackBar.Main
+version: 1.0
+name: Attack_Bar
+description: GUI for mob health.
+load: POSTWORLD
+author: Tiernanator
+website: None
+database: false
+depend: [Utilities]
+prefix: Bar
+softdepend: []
+loadbefore: []
+
+commands:
+#    materials:
+#        description: Lists all the Material Types.
