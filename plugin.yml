@@ -1,4 +1,4 @@
-main: me.Tiernanator.AttackBar.Main
+main: me.Tiernanator.AttackBar.AttackBarMain
 version: 1.0
 name: Attack_Bar
 description: GUI for mob health.
