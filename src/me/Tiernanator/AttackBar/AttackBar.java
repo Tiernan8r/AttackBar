@@ -36,9 +36,8 @@ public class AttackBar {
 	}
 	
 	public static void addAttackBar(AttackBar attackBar) {
-		
-		List<AttackBar> allBars = new ArrayList<AttackBar>();
-		allBars = getAttackBars();
+
+		List<AttackBar> allBars = getAttackBars();
 		if(!allBars.contains(attackBar)) {
 			allBars.add(attackBar);
 		}
@@ -48,9 +47,7 @@ public class AttackBar {
 	private static void setAllAttackBars(List<AttackBar> allBars) {
 		
 		if(allBars == null || allBars.isEmpty()) {
-			
 			allAttackBars.clear();
-			
 		} else {
 			allAttackBars = allBars;
 		}
